@@ -5,7 +5,9 @@
     "options": ["感情の平板化", "意欲の減退", "幻覚・妄想", "社会的ひきこもり"],
     "correctIndex": 2,
     "explanation": "陽性症状は、本来あるはずのないものが現れる症状（幻覚、妄想、思考滅裂など）を指します。他の選択肢は陰性症状に該当します。",
-    "subject": "schizophrenia"
+    "subject": "schizophrenia",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_002",
@@ -13,7 +15,9 @@
     "options": ["日内変動", "季節性変動", "一過性変化", "睡眠覚醒リズム"],
     "correctIndex": 0,
     "explanation": "うつ病の典型的な特徴として、朝の気分の落ち込みが激しく、夕方に軽快する「日内変動」が見られることが多いです。",
-    "subject": "mood_disorder"
+    "subject": "mood_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_003",
@@ -21,7 +25,9 @@
     "options": ["抑うつ状態", "躁状態", "パニック状態", "せん妄状態"],
     "correctIndex": 1,
     "explanation": "双極性障害は、気分の著しい高揚を伴う「躁状態」と、落ち込みを伴う「抑うつ状態」を繰り返す疾患です。",
-    "subject": "mood_disorder"
+    "subject": "mood_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_004",
@@ -29,7 +35,9 @@
     "options": ["幻視", "麻痺", "短期記憶障害（物忘れ）", "人格の変化"],
     "correctIndex": 2,
     "explanation": "アルツハイマー型認知症では、新しいことを覚えられない「短期記憶障害」から始まるのが典型的です。",
-    "subject": "dementia"
+    "subject": "dementia",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_005",
@@ -37,15 +45,19 @@
     "options": ["再び発作が起きるのではないかと不安になること", "特定の場所を避けること", "常に体が震えること", "誰かに見られていると感じること"],
     "correctIndex": 0,
     "explanation": "パニック発作を繰り返すうちに、次の発作への恐れを抱くようになることを予期不安と呼びます。",
-    "subject": "anxiety_disorder"
+    "subject": "anxiety_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_006",
-    "text": "拒食症（神経性無食欲症）において見られる身体的兆候として適切なのはどれか。",
+    "text": "拒食症において見られる身体的兆候として適切なのはどれか。",
     "options": ["多毛", "無月経", "血圧上昇", "頻脈"],
     "correctIndex": 1,
     "explanation": "低体重による栄養不足から、ホルモンバランスが崩れ無月経となることが多く見られます。",
-    "subject": "eating_disorder"
+    "subject": "eating_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_007",
@@ -53,31 +65,39 @@
     "options": ["不注意", "多動性", "衝動性", "幻覚"],
     "correctIndex": 3,
     "explanation": "ADHDの特性は、不注意、多動性、衝動性の3つです。幻覚は精神病性障害の症状です。",
-    "subject": "developmental_disorder"
+    "subject": "developmental_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_008",
-    "text": "アルコール依存症の離脱症状（禁断症状）として見られる、手が震える現象を何と呼ぶか。",
+    "text": "アルコール依存症の離脱症状として見られる、手が震える現象を何と呼ぶか。",
     "options": ["強直", "振戦", "痙攣", "失調"],
     "correctIndex": 1,
     "explanation": "アルコールの摂取を中断した際に出現する手の震えを、手指振戦と呼びます。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_009",
     "text": "せん妄と認知症の違いについて、せん妄の特徴として適切なのはどれか。",
-    "options": ["意識の混濁がある", "進行が緩やかである", "原因が不明であることが多い", "回復することはない"],
+    "options": ["意識の混濁がある", "進行が緩やかである", "原因が不明なことが多い", "回復することはない"],
     "correctIndex": 0,
     "explanation": "せん妄は急激に発症し、軽度の意識混濁を伴うことが特徴です。認知症は意識は清明なまま徐々に進行します。",
-    "subject": "consciousness_disorder"
+    "subject": "consciousness_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_010",
-    "text": "向精神薬の副作用である「錐体外路症状（EPS）」に関与する脳内の伝達物質はどれか。",
+    "text": "向精神薬の副作用である「錐体外路症状」に関与する脳内の伝達物質はどれか。",
     "options": ["セロトニン", "ドパミン", "ノルアドレナリン", "アセチルコリン"],
     "correctIndex": 1,
     "explanation": "抗精神病薬がドパミン受容体を遮断することにより、運動調節に関わる錐体外路症状が出現します。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_011",
@@ -85,39 +105,49 @@
     "options": ["思考伝播", "支離滅裂な思考", "意欲の欠如", "作為体験"],
     "correctIndex": 2,
     "explanation": "陰性症状は、意欲の減退、感情の平板化、思考の貧困など、精神機能の低下を指します。",
-    "subject": "schizophrenia"
+    "subject": "schizophrenia",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_012",
     "text": "レビー小体型認知症において、特徴的に見られる症状はどれか。",
-    "options": ["具体的な内容の幻視", "人格の著しい変化", "計算能力の低下", "文字の読み書き困難"],
+    "options": ["具体的な幻視", "人格の著しい変化", "計算能力の低下", "読み書き困難"],
     "correctIndex": 0,
     "explanation": "レビー小体型認知症では、実際にはいない人や動物が見える「具体的な幻視」が特徴的です。",
-    "subject": "dementia"
+    "subject": "dementia",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_013",
     "text": "強迫性障害における「強迫観念」の説明として適切なのはどれか。",
-    "options": ["手を何度も洗わずにはいられないこと", "不合理だとわかっていても頭に浮かぶ不安な考え", "誰かに見られているという確信", "常に明るい気分でいること"],
+    "options": ["手を何度も洗うこと", "不合理だとわかっていても浮かぶ不安な考え", "誰かに見られている確信", "常に明るい気分"],
     "correctIndex": 1,
     "explanation": "強迫観念は「考え」、強迫行為は「行動」です。不合理だと理解していても払拭できない不安な考えを指します。",
-    "subject": "anxiety_disorder"
+    "subject": "anxiety_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_014",
-    "text": "PTSD（心的外傷後ストレス障害）の主要症状である「フラッシュバック」とは何か。",
-    "options": ["将来への強い不安", "過去のトラウマ体験が鮮明に蘇ること", "感情が爆発すること", "言葉が思い出せなくなること"],
+    "text": "PTSDの主要症状である「フラッシュバック」とは何か。",
+    "options": ["将来への強い不安", "過去のトラウマ体験が鮮明に蘇ること", "感情が爆発すること", "言葉が思い出せないこと"],
     "correctIndex": 1,
     "explanation": "外傷的な出来事が、意志に反して突然、生々しく思い出される再体験症状を指します。",
-    "subject": "anxiety_disorder"
+    "subject": "anxiety_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_015",
     "text": "自閉スペクトラム症（ASD）の特性として適切なのはどれか。",
-    "options": ["他者の意図を察することの困難さ", "注意力が散漫であること", "極度の多弁", "記憶力が極端に低いこと"],
+    "options": ["他者の意図を察することの困難さ", "注意力が散漫であること", "極度の多弁", "記憶力が極端に低い"],
     "correctIndex": 0,
     "explanation": "ASDは対人相互反応や社会的コミュニケーションの障害、興味の限定が主な特性です。",
-    "subject": "developmental_disorder"
+    "subject": "developmental_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_016",
@@ -125,15 +155,19 @@
     "options": ["激しい全身の痙攣", "数秒から数十秒の意識消失", "突然叫び出す", "数時間に及ぶ意識混濁"],
     "correctIndex": 1,
     "explanation": "欠神発作は短時間の意識消失が主症状で、痙攣は伴わず、周囲にはぼんやりしているように見えます。",
-    "subject": "epilepsy"
+    "subject": "epilepsy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_017",
-    "text": "境界性パーソナリティ障害で見られる「見捨てられ不安」とは何か。",
-    "options": ["一人でいることを好むこと", "他人が自分を嫌っていると妄想すること", "自分にとって重要な人が去ることを過度に恐れること", "知らない場所へ行くのを怖がること"],
+    "text": "パーソナリティ障害で見られる「見捨てられ不安」とは何か。",
+    "options": ["一人でいることを好む", "他人が自分を嫌っていると妄想する", "重要な人が去ることを過度に恐れる", "知らない場所へ行くのを怖がる"],
     "correctIndex": 2,
     "explanation": "他者にしがみついたり、見捨てられることを避けるために必死の努力をしたりすることが特徴です。",
-    "subject": "personality_disorder"
+    "subject": "personality_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_018",
@@ -141,7 +175,9 @@
     "options": ["高熱と筋強剛", "急激な体重減少", "睡眠不足", "幻覚の消失"],
     "correctIndex": 0,
     "explanation": "高熱、筋強剛、自律神経不安定、意識障害を伴う、生命に関わる重篤な副作用です。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_019",
@@ -149,39 +185,49 @@
     "options": ["ビタミンB1", "ビタミンC", "カルシウム", "鉄分"],
     "correctIndex": 0,
     "explanation": "アルコール依存症などに伴うビタミンB1（チアミン）の欠乏が原因で発症します。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_020",
-    "text": "躁状態で見られる「観念奔逸（かんねんほんいつ）」とはどのような状態か。",
-    "options": ["考えが全く浮かばない状態", "考えが次から次へと湧き、まとまらなくなる状態", "一つの考えに固執する状態", "自分の考えが他人に漏れていると感じる状態"],
+    "text": "躁状態で見られる「観念奔逸」とはどのような状態か。",
+    "options": ["考えが全く浮かばない状態", "考えが次から次へと湧きまとまらなくなる状態", "一つの考えに固執する状態", "自分の考えが他人に漏れていると感じる状態"],
     "correctIndex": 1,
     "explanation": "思考の速度が速まり、次々と新しい考えが浮かびますが、一貫性がなくなります。",
-    "subject": "mood_disorder"
+    "subject": "mood_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_021",
-    "text": "SSRI（選択的セロトニン再取り込み阻害薬）が主に用いられる疾患はどれか。",
+    "text": "SSRIが主に用いられる疾患はどれか。",
     "options": ["認知症", "うつ病・不安障害", "統合失調症", "てんかん"],
     "correctIndex": 1,
     "explanation": "シナプス間隙のセロトニン濃度を高める薬剤で、うつ病やパニック障害などに広く使われます。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_022",
     "text": "リチウム製剤を使用する際、定期的な血液検査が必要な理由はどれか。",
     "options": ["白血球を増やすため", "有効血中濃度と中毒域が近いため", "血糖値を測定するため", "鉄分不足を補うため"],
     "correctIndex": 1,
-    "explanation": "リチウムは治療有効範囲が狭く、中毒（リチウム中毒）を防ぐために血中濃度のモニタリングが不可欠です。",
-    "subject": "pharmacotherapy"
+    "explanation": "リチウムは治療有効範囲が狭く、中毒を防ぐために血中濃度のモニタリングが不可欠です。",
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_023",
     "text": "ナルコレプシーに見られる「情動脱力発作」とはどのような現象か。",
-    "options": ["怒った時に意識を失うこと", "笑いや驚きなどの感情の高ぶりで、全身の力が抜けること", "常に体がだるいこと", "悲しい時に呼吸が止まること"],
+    "options": ["怒った時に意識を失うこと", "感情の高ぶりで全身の力が抜けること", "常に体がだるいこと", "悲しい時に呼吸が止まること"],
     "correctIndex": 1,
     "explanation": "強い感情がトリガーとなり、意識は清明なまま急に脱力する症状です。",
-    "subject": "sleep_disorder"
+    "subject": "sleep_disorder",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_024",
@@ -189,175 +235,219 @@
     "options": ["症状が階段状に悪化する", "人格の変化が先行する", "常に一定の速度で進行する", "幻視が主症状である"],
     "correctIndex": 0,
     "explanation": "脳梗塞などの発作のたびに、階段を下りるように症状が悪化していくのが特徴です。",
-    "subject": "dementia"
+    "subject": "dementia",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_025",
-    "text": "うつ病の「微小妄想」の一つである「罪業妄想」の説明として正しいのはどれか。",
-    "options": ["自分は大変な罪を犯したと思い込むこと", "自分はお金がないと思い込むこと", "自分は不治の病だと思い込むこと", "誰かに命を狙われていると思い込むこと"],
+    "text": "うつ病の罪業妄想の説明として正しいのはどれか。",
+    "options": ["自分は大変な罪を犯したと思い込む", "自分はお金がないと思い込む", "自分は不治の病だと思い込む", "誰かに命を狙われていると思い込む"],
     "correctIndex": 0,
     "explanation": "過去の些細な出来事を重大な罪だと捉え、自分を過度に責める妄想です。",
-    "subject": "mood_disorder"
+    "subject": "mood_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_026",
-    "text": "統合失調症の回復期における支援として、最も適切なのはどれか。",
-    "options": ["早期のフルタイム就労を強要する", "再発の徴候に注意しつつ、休息と活動のバランスを図る", "薬物療法を即座に中止する", "刺激を避けるため一生外出させない"],
+    "text": "統合失調症の回復期における支援として最も適切なのはどれか。",
+    "options": ["早期のフルタイム就労を強要する", "再発徴候に注意し休息と活動のバランスを図る", "薬物療法を即座に中止する", "刺激を避けるため一生外出させない"],
     "correctIndex": 1,
-    "explanation": "再発予防（服薬継続とストレス管理）を優先しながら、少しずつ社会生活の幅を広げます。",
-    "subject": "schizophrenia"
+    "explanation": "再発予防を優先しながら、少しずつ社会生活の幅を広げます。",
+    "subject": "schizophrenia",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_027",
     "text": "睡眠時無呼吸症候群（SAS）の代表的な症状はどれか。",
-    "options": ["入眠時幻覚", "激しいいびきと日中の強い眠気", "夜驚症", "夢遊病"],
+    "options": ["入眠時幻覚", "激しいいびきと日中の眠気", "夜驚症", "夢遊病"],
     "correctIndex": 1,
     "explanation": "睡眠中の呼吸停止により深い睡眠が阻害され、日中に強い眠気を引き起こします。",
-    "subject": "sleep_disorder"
+    "subject": "sleep_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_028",
     "text": "「解離性健忘」の説明として正しいのはどれか。",
-    "options": ["脳の損傷による記憶喪失", "ストレスなど心理的原因により、重要な個人情報を思い出せない状態", "新しいことが覚えられない状態", "アルコールによる記憶障害"],
+    "options": ["脳の損傷による記憶喪失", "心理的原因により情報を思い出せない状態", "新しいことが覚えられない状態", "アルコールによる記憶障害"],
     "correctIndex": 1,
     "explanation": "身体的な損傷はなく、心理的ストレスによってエピソード記憶を失う状態を指します。",
-    "subject": "neurotic_disorder"
+    "subject": "neurotic_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_029",
     "text": "社交不安障害（SAD）の症状として適切なのはどれか。",
-    "options": ["人前での注目を浴びる状況を過度に恐れる", "誰もいないのに声が聞こえる", "自分の姿が見えなくなる不安", "常に誰かと一緒にいないとパニックになる"],
+    "options": ["注目を浴びる状況を過度に恐れる", "誰もいないのに声が聞こえる", "自分の姿が見えなくなる不安", "常に誰かといないとパニックになる"],
     "correctIndex": 0,
     "explanation": "人前でのスピーチや会食など、他人に評価される状況に強い苦痛や不安を感じます。",
-    "subject": "anxiety_disorder"
+    "subject": "anxiety_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_030",
-    "text": "クロザピン（抗精神病薬）を使用する際、最も注意すべき副作用はどれか。",
+    "text": "クロザピンを使用する際、最も注意すべき副作用はどれか。",
     "options": ["体重減少", "無顆粒球症", "多尿", "視力低下"],
     "correctIndex": 1,
-    "explanation": "血液中の白血球（顆粒球）が著しく減少する副作用があり、厳格な血液検査が義務付けられています。",
-    "subject": "pharmacotherapy"
+    "explanation": "血液中の白血球が著しく減少する副作用があり、厳格な血液検査が義務付けられています。",
+    "subject": "pharmacotherapy",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_031",
     "text": "パニック障害に伴う「広場恐怖」とはどのような状態か。",
-    "options": ["広い公園を走るのが好きな状態", "逃げ出すのが困難な場所や状況を避ける状態", "高い場所を怖がること", "暗い場所を怖がること"],
+    "options": ["広い公園が好き", "逃げ出すのが困難な場所や状況を避ける状態", "高い場所を怖がる", "暗い場所を怖がる"],
     "correctIndex": 1,
-    "explanation": "パニック発作が起きた際に助けが得られない、あるいは逃げにくい状況（電車、人混みなど）を避けます。",
-    "subject": "anxiety_disorder"
+    "explanation": "パニック発作が起きた際に助けが得られない、あるいは逃げにくい状況を避けます。",
+    "subject": "anxiety_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_032",
-    "text": "前頭側頭型認知症（ピック病など）で見られる特徴的な行動はどれか。",
-    "options": ["時刻通りに行動を繰り返す（時刻表的生活）", "激しい全身の痙攣", "初期からの高度な記憶障害", "視力の大幅な低下"],
+    "text": "前頭側頭型認知症で見られる特徴的な行動はどれか。",
+    "options": ["時刻通りに行動を繰り返す（時刻表的生活）", "激しい全身の痙攣", "初期からの高度な記憶障害", "視力の低下"],
     "correctIndex": 0,
-    "explanation": "前頭側頭型認知症では、脱抑制（反社会的行動）や定型的な行動の反復が見られます。",
-    "subject": "dementia"
+    "explanation": "前頭側頭型認知症では、脱抑制や定型的な行動の反復が見られます。",
+    "subject": "dementia",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_033",
-    "text": "知的発達症（知的障害）の診断において考慮される2つの要素はどれか。",
-    "options": ["IQ（知能指数）と適応機能の制限", "性格と身長", "学歴と年収", "親の職業と家庭環境"],
+    "text": "知的発達症の診断において考慮される2つの要素はどれか。",
+    "options": ["IQと適応機能の制限", "性格と身長", "学歴と年収", "親の職業と家庭環境"],
     "correctIndex": 0,
-    "explanation": "知的能力（IQ）だけでなく、日常生活や社会生活を送るための適応能力の制限を総合的に判断します。",
-    "subject": "developmental_disorder"
+    "explanation": "知的能力だけでなく、日常生活を送るための適応能力の制限を総合的に判断します。",
+    "subject": "developmental_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_034",
     "text": "適応障害の説明として正しいのはどれか。",
-    "options": ["遺伝のみが原因である", "明確なストレス因により、日常生活に支障をきたすほど症状が現れる状態", "薬物のみで完治する", "性格が悪いことが原因である"],
+    "options": ["遺伝のみが原因", "ストレス因により生活に支障をきたすほど症状が現れる状態", "薬物のみで完治", "性格が悪いことが原因"],
     "correctIndex": 1,
     "explanation": "特定のストレス源に対する過剰な反応であり、ストレス源から離れると改善するのが一般的です。",
-    "subject": "neurotic_disorder"
+    "subject": "neurotic_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_035",
-    "text": "向精神薬の「抗コリン作用」による副作用として、適切な組み合わせはどれか。",
+    "text": "向精神薬の「抗コリン作用」による副作用はどれか。",
     "options": ["下痢・多尿", "口渇・便秘・排尿困難", "血圧上昇・頻脈", "発汗・震え"],
     "correctIndex": 1,
     "explanation": "アセチルコリンの働きを阻害するため、口が乾く、便秘、尿が出にくいなどの症状が出ます。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_036",
-    "text": "統合失調症の「作為体験（させられ体験）」とは何か。",
-    "options": ["自分で何かを作る体験", "自分の意志ではなく、誰かに操られていると感じる体験", "過去の記憶を捏造すること", "未来の出来事を予知すること"],
+    "text": "統合失調症の「作為体験」とは何か。",
+    "options": ["自分で何かを作る体験", "自分の意志ではなく誰かに操られていると感じる体験", "過去の記憶を捏造すること", "未来の出来事を予知すること"],
     "correctIndex": 1,
     "explanation": "自分の考えや行動が、外部の力によって支配されていると感じる陽性症状です。",
-    "subject": "schizophrenia"
+    "subject": "schizophrenia",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_037",
     "text": "学習障害（LD）の特性に含まれないものはどれか。",
     "options": ["読むことの困難", "書くことの困難", "計算することの困難", "全般的な知能の著しい遅れ"],
     "correctIndex": 3,
-    "explanation": "学習障害は全般的な知能に遅れはないものの、特定の学習（読み・書き・計算等）にのみ困難が生じます。",
-    "subject": "developmental_disorder"
+    "explanation": "学習障害は全般的な知能に遅れはないものの、特定の学習にのみ困難が生じます。",
+    "subject": "developmental_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_038",
-    "text": "アルコール離脱の極期に出現する「震戦せん妄」の特徴はどれか。",
+    "text": "アルコール離脱に出現する「震戦せん妄」の特徴はどれか。",
     "options": ["穏やかな表情", "意識清明", "小動物などが見える幻視と興奮", "深い睡眠"],
     "correctIndex": 2,
     "explanation": "飲酒中断から数日後に現れ、幻視、自律神経症状、強い不安・興奮を伴う緊急性の高い状態です。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_039",
     "text": "双極II型障害と双極I型障害の違いはどれか。",
-    "options": ["II型は躁状態がなく、うつ状態のみである", "II型は激しい躁状態ではなく、軽躁状態とうつ状態を繰り返す", "II型の方が症状が重い", "II型は高齢者のみが発症する"],
+    "options": ["II型は躁状態がない", "II型は激しい躁状態ではなく軽躁状態とうつを繰り返す", "II型の方が症状が重い", "II型は高齢者のみ発症"],
     "correctIndex": 1,
-    "explanation": "I型は入院を要するような激しい躁状態を伴いますが、II型は社会生活に支障が少ない程度の軽躁状態が見られます。",
-    "subject": "mood_disorder"
+    "explanation": "I型は入院を要するような激しい躁状態を伴いますが、II型は軽躁状態が見られます。",
+    "subject": "mood_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_040",
-    "text": "抗精神病薬の副作用である「アカシジア（静坐不能）」の症状はどれか。",
-    "options": ["足がムズムズして、じっと座っていられない", "筋肉が固まって動かない", "手が震える", "常に眠気が強い"],
+    "text": "副作用の「アカシジア」の症状はどれか。",
+    "options": ["じっと座っていられない", "筋肉が固まって動かない", "手が震える", "常に眠気が強い"],
     "correctIndex": 0,
     "explanation": "内的な静止不能感があり、歩き回ったり足踏みをしたりせずにはいられない状態です。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_041",
     "text": "「離人症」の説明として正しいのはどれか。",
-    "options": ["自分が自分であるという実感が失われ、現実感がない状態", "幽霊が見えること", "他人の声が頭の中で聞こえること", "常に誰かに監視されていると感じること"],
+    "options": ["自分が自分でないと実感し現実感がない状態", "幽霊が見えること", "他人の声が聞こえる", "誰かに監視されていると感じる"],
     "correctIndex": 0,
     "explanation": "自分が自分の体から離れているような感覚や、周囲が作り物のように感じる感覚を指します。",
-    "subject": "neurotic_disorder"
+    "subject": "neurotic_disorder",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_042",
-    "text": "てんかんの「大発作（強直間代発作）」の際、最初に行うべき対応はどれか。",
-    "options": ["無理やり口にタオルを詰め込む", "周囲の危険物を退け、頭を保護して見守る", "体を激しく揺すって起こす", "大声で名前を呼び続ける"],
+    "text": "てんかんの「大発作」の際、最初に行うべき対応はどれか。",
+    "options": ["無理やり口にタオルを詰める", "周囲の危険物を退け頭を保護して見守る", "体を激しく揺すって起こす", "大声で呼び続ける"],
     "correctIndex": 1,
-    "explanation": "怪我を防ぐのが最優先です。口への詰め物は窒息の危険があるため、現在では推奨されません。",
-    "subject": "epilepsy"
+    "explanation": "怪我を防ぐのが最優先です。口への詰め物は窒息の危険があります。",
+    "subject": "epilepsy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_043",
-    "text": "発達障害における「感覚過敏」への対応として、適切なのはどれか。",
-    "options": ["慣れさせるために、あえて刺激を与え続ける", "イヤーマフの使用や遮光カーテンなど、環境調整を行う", "本人の我慢が足りないと叱る", "運動を強制する"],
+    "text": "発達障害の感覚過敏への対応として適切なのはどれか。",
+    "options": ["慣れさせるため刺激を与える", "イヤーマフの使用など環境調整を行う", "我慢が足りないと叱る", "運動を強制する"],
     "correctIndex": 1,
-    "explanation": "本人の努力で解決できるものではないため、刺激を軽減する環境整備（合理的配慮）が重要です。",
-    "subject": "developmental_disorder"
+    "explanation": "本人の努力で解決できるものではないため、刺激を軽減する環境整備が重要です。",
+    "subject": "developmental_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_044",
-    "text": "ベンゾジアゼピン系抗不安薬・睡眠薬の長期服用によるリスクはどれか。",
+    "text": "睡眠薬の長期服用によるリスクはどれか。",
     "options": ["依存性と耐性の形成", "筋肉の異常な発達", "視力の向上", "高血圧"],
     "correctIndex": 0,
     "explanation": "長期使用により薬なしではいられなくなる「依存」や、効果が薄れて量が増える「耐性」が生じやすいです。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_045",
-    "text": "心理アセスメントに使われる「ロールシャッハ・テスト」はどのようなテストか。",
-    "options": ["知能指数を測るテスト", "インクのしみから何を想像するかを答える投影法検査", "文章を完成させる検査", "単純な計算を繰り返す検査"],
+    "text": "心理アセスメントに使われる「ロールシャッハ・テスト」とは何か。",
+    "options": ["知能指数を測るテスト", "インクのしみから何を想像するか答える検査", "文章を完成させる検査", "単純な計算を繰り返す検査"],
     "correctIndex": 1,
     "explanation": "無意識的な人格特性を明らかにするための投影法検査の代表例です。",
-    "subject": "assessment"
+    "subject": "assessment",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_046",
@@ -365,118 +455,148 @@
     "options": ["100人に1人程度で、思春期から青年期に多い", "10,000人に1人程度で、幼児期に多い", "1,000人に1人程度で、老年期に多い", "稀な疾患で、40代以降に多い"],
     "correctIndex": 0,
     "explanation": "人口の約1%が罹患する比較的一般的な疾患で、10代後半から20代に発症のピークがあります。",
-    "subject": "schizophrenia"
+    "subject": "schizophrenia",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_047",
     "text": "「身体症状症」とはどのような状態か。",
-    "options": ["明らかに仮病である状態", "身体的異常はないが、痛みや疲労などの身体症状に過度な苦痛を感じる状態", "筋肉が麻痺して動かない状態", "自分で自分を傷つける状態"],
+    "options": ["明らかに仮病", "身体的異常はないが身体症状に過度な苦痛を感じる状態", "筋肉が麻痺して動かない状態", "自分で自分を傷つける状態"],
     "correctIndex": 1,
     "explanation": "検査で異常がなくても、本人は強い痛みや不快感を覚え、それによって生活に支障が出ます。",
-    "subject": "neurotic_disorder"
+    "subject": "neurotic_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_048",
     "text": "抗不安薬の「筋弛緩作用」によって高齢者で発生しやすい事故はどれか。",
-    "options": ["ふらつきによる転倒・骨折", "激しい頭痛", "記憶力の急激な向上", "食欲の増進"],
+    "options": ["ふらつきによる転倒・骨折", "激しい頭痛", "記憶力の向上", "食欲の増進"],
     "correctIndex": 0,
     "explanation": "筋肉を緩める作用があるため、足元がふらついて転倒しやすくなるため注意が必要です。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_049",
-    "text": "DSM-5（精神疾患の診断・統計マニュアル）を発行している組織はどこか。",
-    "options": ["WHO（世界保健機関）", "米国精神医学会", "日本精神神経学会", "厚生労働省"],
+    "text": "DSM-5を発行している組織はどこか。",
+    "options": ["WHO", "米国精神医学会", "日本精神神経学会", "厚生労働省"],
     "correctIndex": 1,
     "explanation": "ICDはWHOが、DSMは米国精神医学会（APA）が作成・発行しています。",
-    "subject": "classification"
+    "subject": "classification",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_050",
     "text": "コルサコフ症候群の三徴に含まれないものはどれか。",
     "options": ["記銘力障害", "見当識障害", "作話", "幻聴"],
     "correctIndex": 3,
-    "explanation": "新しいことが覚えられず（記銘力障害）、時間や場所がわからず（見当識障害）、それを埋めるために「作話」をするのが特徴です。",
-    "subject": "dependency"
+    "explanation": "新しいことが覚えられず、時間や場所がわからず、それを埋めるために「作話」をするのが特徴です。",
+    "subject": "dependency",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_051",
-    "text": "電気けいれん療法（ECT）が検討される、緊急性の高い状態はどれか。",
-    "options": ["軽度の不眠", "重度のうつ状態で食事摂取が困難、または自殺の危険が切迫している時", "少し元気がない時", "誰かと喧嘩をした後"],
+    "text": "電気けいれん療法が検討される緊急性の高い状態はどれか。",
+    "options": ["軽度の不眠", "重症で食事摂取困難、または自殺の危険が切迫している時", "少し元気がない時", "誰かと喧嘩をした後"],
     "correctIndex": 1,
-    "explanation": "薬物療法の効果が出るのを待てないほど重症、あるいは薬が使えない場合に非常に有効な治療法です。",
-    "subject": "therapy"
+    "explanation": "薬物療法の効果が出るのを待てないほど重症、あるいは薬が使えない場合に有効な治療法です。",
+    "subject": "therapy",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_052",
-    "text": "トゥレット症候群（チック障害）で見られる「音声チック」の例はどれか。",
-    "options": ["目をパチパチさせる", "不随意に咳払いや汚言を発する", "首を振る", "肩をすくめる"],
+    "text": "トゥレット症候群で見られる「音声チック」の例はどれか。",
+    "options": ["目をパチパチさせる", "咳払いや汚言を発する", "首を振る", "肩をすくめる"],
     "correctIndex": 1,
     "explanation": "運動チックと音声チックの両方が1年以上続くものをトゥレット症候群と呼びます。",
-    "subject": "developmental_disorder"
+    "subject": "developmental_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_053",
-    "text": "老年期うつ病において、認知症と間違われやすい状態を何と呼ぶか。",
+    "text": "老年期うつ病において認知症と間違われやすい状態を何と呼ぶか。",
     "options": ["仮面うつ病", "仮性認知症", "せん妄", "健忘"],
     "correctIndex": 1,
     "explanation": "うつ病による意欲低下や集中力低下が、認知機能障害のように見えることを仮性認知症と呼びます。",
-    "subject": "mood_disorder"
+    "subject": "mood_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_054",
     "text": "全般不安障害（GAD）の特徴として適切なのはどれか。",
-    "options": ["特定の状況に関わらず、日常の様々な出来事に対して過剰な不安が続く", "一度だけ強い不安を感じること", "蛇を異常に怖がること", "夜だけ不安になること"],
+    "options": ["日常の様々な出来事に対して過剰な不安が続く", "一度だけ強い不安を感じる", "蛇を異常に怖がる", "夜だけ不安になる"],
     "correctIndex": 0,
     "explanation": "仕事、健康、家族のことなど、多岐にわたる事柄へのコントロール困難な不安が6ヶ月以上続きます。",
-    "subject": "anxiety_disorder"
+    "subject": "anxiety_disorder",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_055",
-    "text": "産後数日以内に出現し、涙もろさや情緒不安定が見られる、一時的な状態を何と呼ぶか。",
+    "text": "情緒不安定が見られる一時的な状態を何と呼ぶか。",
     "options": ["産後うつ病", "マタニティブルー", "産後精神病", "育児放棄"],
     "correctIndex": 1,
     "explanation": "ホルモンバランスの変化などで起こる生理的な反応で、多くは数日で自然に軽快します。",
-    "subject": "mood_disorder"
+    "subject": "mood_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_056",
-    "text": "「精神的動揺により、自分の考えをまとめることができない状態」をアセスメントで何と表現するか。",
+    "text": "思考の進みが遅くなり、なかなか先に進まない状態を何というか。",
     "options": ["思考制止", "思考途絶", "滅裂思考", "連合弛緩"],
     "correctIndex": 0,
-    "explanation": "思考の進みが遅くなり、なかなか先に進まない状態。うつ状態でよく見られます。",
-    "subject": "assessment"
+    "explanation": "うつ状態でよく見られる、自分の考えをまとめることができない状態を指します。",
+    "subject": "assessment",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "md_057",
-    "text": "自閉スペクトラム症（ASD）において、言葉をそのまま繰り返す現象を何と呼ぶか。",
-    "options": ["空想虚言", "エコラリア（反響言語）", "独り言", "構音障害"],
+    "text": "ASDにおいて、言葉をそのまま繰り返す現象を何と呼ぶか。",
+    "options": ["空想虚言", "エコラリア", "独り言", "構音障害"],
     "correctIndex": 1,
     "explanation": "相手が言った言葉をそのままおうむ返しにする現象です。",
-    "subject": "developmental_disorder"
+    "subject": "developmental_disorder",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_058",
-    "text": "向精神薬による副作用「遅発性ジスキネジア」の主な症状はどれか。",
-    "options": ["口をもぐもぐさせたり、舌を突き出したりする不随意運動", "急激な血圧低下", "全身の激しい痒み", "一時的な難聴"],
+    "text": "副作用「遅発性ジスキネジア」の主な症状はどれか。",
+    "options": ["口をもぐもぐさせたりする不随意運動", "急激な血圧低下", "全身の激しい痒み", "一時的な難聴"],
     "correctIndex": 0,
     "explanation": "長期の服薬後に現れることが多く、本人の意志に関わらず口周辺などが動いてしまう状態です。",
-    "subject": "pharmacotherapy"
+    "subject": "pharmacotherapy",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "md_059",
     "text": "薬物依存における「耐性」の説明として正しいのはどれか。",
-    "options": ["薬を完全に止めること", "同じ効果を得るために、より多くの量が必要になること", "薬に対する免疫ができること", "薬の副作用がなくなること"],
+    "options": ["薬を完全に止めること", "同じ効果を得るために、より多くの量が必要になること", "薬に対する免疫ができる", "薬の副作用がなくなる"],
     "correctIndex": 1,
     "explanation": "繰り返し使用することで脳が慣れてしまい、初めと同じ量では効かなくなる現象です。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "md_060",
-    "text": "認知症の「BPSD（周辺症状・行動心理症状）」に含まれるのはどれか。",
+    "text": "認知症の「BPSD」に含まれるのはどれか。",
     "options": ["記憶障害", "見当識障害", "徘徊・妄想・抑うつ", "失認"],
     "correctIndex": 2,
-    "explanation": "中核症状（記憶障害等）に伴い、二次的に生じる精神症状や行動上の問題を指します。",
-    "subject": "dementia"
+    "explanation": "中核症状に伴い、二次的に生じる精神症状や行動上の問題を指します。",
+    "subject": "dementia",
+    "difficulty": "B",
+    "isEnabled": true
   }
 ]

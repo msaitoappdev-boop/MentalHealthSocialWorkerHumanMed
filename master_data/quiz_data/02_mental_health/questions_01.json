@@ -5,7 +5,9 @@
     "options": ["精神衛生法", "精神病者監護法", "精神保健法", "精神保健福祉法"],
     "correctIndex": 1,
     "explanation": "1900年制定の「精神病者監護法」により、私宅監置が法的に認められていました。これは1950年の精神衛生法制定まで続きました。",
-    "subject": "history"
+    "subject": "history",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_002",
@@ -13,15 +15,19 @@
     "options": ["自殺は個人の問題である", "自殺は社会の問題として捉える", "高齢者の自殺のみを対象とする", "経済的支援は行わない"],
     "correctIndex": 1,
     "explanation": "自殺対策基本法では、自殺は個人的な問題ではなく「社会的な問題」として捉え、総合的な対策を推進することを理念としています。",
-    "subject": "suicide_prevention"
+    "subject": "suicide_prevention",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_003",
-    "text": "依存症の回復を支援する「セルフヘルプグループ（自助グループ）」として、アルコール依存症の本人による組織はどれか。",
+    "text": "依存症の回復を支援する「セルフヘルプグループ」として、アルコール依存症の本人による組織はどれか。",
     "options": ["AA（アルコホーリクス・アノニマス）", "アラノン", "断酒会", "ダルク（DARC）"],
     "correctIndex": 0,
     "explanation": "AAは世界的なアルコール依存症者の自助グループです。断酒会も日本独自の組織ですが、選択肢の中で最も一般的な国際組織はAAです。ダルクは薬物依存、アラノンは家族向けです。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_004",
@@ -29,7 +35,9 @@
     "options": ["症状の完全な消失", "本人が希望を持って自分らしい人生を歩むこと", "完全に薬をやめること", "一生入院を続けること"],
     "correctIndex": 1,
     "explanation": "リカバリーは臨床的な「寛解」だけでなく、障害を抱えながらも自分自身の人生を主体的に生きるプロセスを重視します。",
-    "subject": "recovery"
+    "subject": "recovery",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_005",
@@ -37,7 +45,9 @@
     "options": ["カウンセリング", "デブリーフィング", "傾聴", "心理教育"],
     "correctIndex": 2,
     "explanation": "被災直後には、批判せず共感的に話を聴く「傾聴」が基本的かつ重要な支援となります。",
-    "subject": "disaster_mental_health"
+    "subject": "disaster_mental_health",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_006",
@@ -45,7 +55,9 @@
     "options": ["身体的虐待", "性的虐待", "ネグレクト", "教育的指導"],
     "correctIndex": 3,
     "explanation": "児童虐待は、身体的、性的、心理的虐待、およびネグレクトの4つに分類されます。適切な教育的指導は含まれません。",
-    "subject": "child_abuse"
+    "subject": "child_abuse",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_007",
@@ -53,7 +65,9 @@
     "options": ["精神障害者の強制入院の決定", "地域の精神保健に関する技術的指導・助言", "すべての病院の経営", "薬剤の処方"],
     "correctIndex": 1,
     "explanation": "精神保健福祉センターは、都道府県や政令指定都市に設置され、専門的な相談や技術的指導を行う機関です。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_008",
@@ -61,7 +75,9 @@
     "options": ["無理やり外に連れ出す", "家族の不安を軽減し、本人を待つ姿勢を整える", "本人の部屋のドアを壊して入る", "厳しく叱責する"],
     "correctIndex": 1,
     "explanation": "ひきこもり支援では、まず家族への支援を通じて家庭内の環境を安定させ、信頼関係を築くことから始めます。",
-    "subject": "social_withdrawal"
+    "subject": "social_withdrawal",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_009",
@@ -69,7 +85,9 @@
     "options": ["自分の能力を発揮できる", "お金が人より多い", "病気が一切ない", "常に一人でいる"],
     "correctIndex": 0,
     "explanation": "WHOによれば、精神的健康とは自らの能力を発揮し、生活上のストレスに対処でき、社会に貢献できる状態を指します。",
-    "subject": "mental_health_definition"
+    "subject": "mental_health_definition",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_010",
@@ -77,7 +95,9 @@
     "options": ["緊張蓄積期、爆発期、ハネムーン期を繰り返す", "常に爆発期である", "一度終われば二度と起きない", "加害者は常に謝り続ける"],
     "correctIndex": 0,
     "explanation": "DVには周期性があり、緊張が高まり、暴力が爆発し、その後一時的に優しくなる（ハネムーン期）というサイクルを繰り返すことが知られています。",
-    "subject": "domestic_violence"
+    "subject": "domestic_violence",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_011",
@@ -85,7 +105,9 @@
     "options": ["公立の精神病院の設置義務化", "精神障害者の人権擁護", "私宅監置の全面禁止", "薬剤師の配置義務"],
     "correctIndex": 0,
     "explanation": "1919年の精神病院法は、都道府県に対し公立精神病院の設置を命じることを目的としていました。しかし、設置はあまり進みませんでした。",
-    "subject": "history"
+    "subject": "history",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "mh_012",
@@ -93,7 +115,9 @@
     "options": ["過度な薬物療法", "私宅監置による非人道的な扱い", "精神科医の不足", "病院の食事が悪いこと"],
     "correctIndex": 1,
     "explanation": "呉秀三は「わが邦十何万の精神病者は…この病を受けたるの不幸のほかに、この邦に生まれたるの不幸を重ぬるものというべし」と私宅監置を痛烈に批判しました。",
-    "subject": "history"
+    "subject": "history",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_013",
@@ -101,7 +125,9 @@
     "options": ["ケースワーカー", "ゲートキーパー", "ケアマネジャー", "ボランティア"],
     "correctIndex": 1,
     "explanation": "ゲートキーパーは、命の門番として、孤立を防ぎ適切な支援に繋ぐ重要な役割を担います。特別な資格がなくてもなれるものです。",
-    "subject": "suicide_prevention"
+    "subject": "suicide_prevention",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_014",
@@ -109,15 +135,19 @@
     "options": ["5月5日", "10月10日", "12月1日", "3月11日"],
     "correctIndex": 1,
     "explanation": "10月10日は世界メンタルヘルス・デーであり、世界中でメンタルヘルスへの理解を深める啓発活動が行われます。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_015",
     "text": "依存症の「ハームリダクション」の考え方として正しいものはどれか。",
-    "options": ["完全に止める（断酒・断薬）ことのみを認める", "依存による健康や社会への害を少しでも減らすことを目指す", "依存している人を厳しく罰する", "本人の意思を無視して隔離する"],
+    "options": ["完全に止めることのみを認める", "依存による害を少しでも減らすことを目指す", "依存している人を厳しく罰する", "本人の意思を無視して隔離する"],
     "correctIndex": 1,
     "explanation": "ハームリダクションは、即座の断絶が困難な場合でも、不衛生な針の交換や減酒などを通じて二次的な被害を抑える現実的なアプローチです。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_016",
@@ -125,7 +155,9 @@
     "options": ["カウンセラー", "ピアサポーター", "メンター", "ソーシャルワーカー"],
     "correctIndex": 1,
     "explanation": "ピア（仲間）によるサポートは、同じ悩みを持つ者同士だからこそ得られる共感や希望を提供し、リカバリーを促進します。",
-    "subject": "recovery"
+    "subject": "recovery",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_017",
@@ -133,7 +165,9 @@
     "options": ["被災地の瓦礫撤去", "災害急性期における専門的な精神科医療の提供", "被災者への食料配布", "家の再建支援"],
     "correctIndex": 1,
     "explanation": "DPATは、大規模災害などで精神科医療機能が低下した地域に派遣され、専門的なケアや支援を行うチームです。",
-    "subject": "disaster_mental_health"
+    "subject": "disaster_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_018",
@@ -141,7 +175,9 @@
     "options": ["警察に即座に逮捕を依頼する", "市町村や児童相談所に通告する", "しばらく様子を見る", "近所に言いふらす"],
     "correctIndex": 1,
     "explanation": "虐待の「疑い」であっても、発見者は速やかに通告する義務があります。これにより早期発見と保護を図ります。",
-    "subject": "child_abuse"
+    "subject": "child_abuse",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_019",
@@ -149,7 +185,9 @@
     "options": ["全員が運動すること", "自殺者の減少", "全員が毎日8時間寝ること", "すべての病気をなくすこと"],
     "correctIndex": 1,
     "explanation": "健康日本21では、自殺者の減少、気分障害の適切なケアなどが重要な目標として掲げられています。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_020",
@@ -157,7 +195,9 @@
     "options": ["全事業所", "従業員50人以上の事業所（義務）", "従業員1,000人以上の事業所のみ", "公務員の職場のみ"],
     "correctIndex": 1,
     "explanation": "50人以上の事業所では年1回のストレスチェックが義務付けられています（50人未満は当面努力義務）。",
-    "subject": "labor_mental_health"
+    "subject": "labor_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_021",
@@ -165,7 +205,9 @@
     "options": ["カジノ実施法の検討などによる社会的関心の高まり", "トランプ遊びを禁止するため", "競馬の廃止を目的とするため", "宝くじの売上増進のため"],
     "correctIndex": 0,
     "explanation": "統合型リゾート（IR）整備の議論に伴い、深刻な社会問題であるギャンブル依存症への対策を強化するために制定されました。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_022",
@@ -173,7 +215,9 @@
     "options": ["身体的な暴力があること", "本人が心身の苦痛を感じていること", "学校の外で行われること", "10人以上で行われること"],
     "correctIndex": 1,
     "explanation": "現在の定義では、暴力の有無に関わらず、心理的・物理的な影響により本人が苦痛を感じているものを「いじめ」として捉えます。",
-    "subject": "child_abuse"
+    "subject": "child_abuse",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_023",
@@ -181,15 +225,19 @@
     "options": ["1週間以上", "1ヶ月以上", "6ヶ月以上", "3年以上"],
     "correctIndex": 2,
     "explanation": "厚生労働省のガイドライン等では、家庭にとどまり続けて6ヶ月以上経過した状態を一つの目安としています。",
-    "subject": "social_withdrawal"
+    "subject": "social_withdrawal",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_024",
     "text": "オレンジプラン（認知症施策推進５か年計画）の主な目的はどれか。",
-    "options": ["認知症の薬を安くすること", "認知症の人が住み慣れた地域で自分らしく暮らし続けること", "認知症の人を全員病院に入れること", "認知症を完全に治すこと"],
+    "options": ["認知症の薬を安くすること", "住み慣れた地域で自分らしく暮らし続けること", "認知症の人を全員病院に入れること", "認知症を完全に治すこと"],
     "correctIndex": 1,
     "explanation": "オレンジプラン（現在は新オレンジプランへ継承）は、地域での生活を支えるための多角的な施策です。",
-    "subject": "elderly_mental_health"
+    "subject": "elderly_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_025",
@@ -197,7 +245,9 @@
     "options": ["強制入院の強化", "精神障害者の人権保護と社会復帰の促進", "私宅監置の復活", "看護師の増員のみ"],
     "correctIndex": 1,
     "explanation": "宇都宮病院事件を契機に改正され、入院の妥当性を審査する精神医療審査会の設置など、人権を尊重する仕組みが整えられました。",
-    "subject": "history"
+    "subject": "history",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_026",
@@ -205,15 +255,19 @@
     "options": ["身体的暴力のみ", "身体的、精神的、性的暴力を含む広範な暴力", "喧嘩による軽い口論", "他人の家庭内の問題"],
     "correctIndex": 1,
     "explanation": "DV防止法では、身体的な暴力だけでなく、生活費を渡さない経済的圧迫や、人格を否定する暴言なども保護の対象として考慮されます。",
-    "subject": "domestic_violence"
+    "subject": "domestic_violence",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_027",
-    "text": "依存症の「イネーブリング（支え）」とはどのような行動を指すか。",
-    "options": ["本人の立ち直りを助けること", "家族が本人の不始末を肩代わりするなど、依存を継続させてしまう行動", "病院に連れて行くこと", "警察に通報すること"],
+    "text": "依存症の「イネーブリング」とはどのような行動を指すか。",
+    "options": ["本人の立ち直りを助けること", "不始末を肩代わりするなど依存を継続させる行動", "病院に連れて行くこと", "警察に通報すること"],
     "correctIndex": 1,
     "explanation": "家族が良かれと思って借金を肩代わりしたり、嘘をついて職場に謝ったりする行動が、本人が底つきを経験する機会を奪い、依存を助長させてしまうことを指します。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_028",
@@ -221,7 +275,9 @@
     "options": ["ICF", "WRAP（ラップ：元気回復行動プラン）", "SSRI", "BPRS"],
     "correctIndex": 1,
     "explanation": "WRAPは、本人が自分らしく健やかであるための道具箱（ツール）を自分で作り、日常や危機の際の対処法を決めておくプログラムです。",
-    "subject": "recovery"
+    "subject": "recovery",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_029",
@@ -229,7 +285,9 @@
     "options": ["安全を確保する", "無理に体験を聞き出す", "ニーズを聴く", "情報提供をする"],
     "correctIndex": 1,
     "explanation": "PFAでは、侵襲的な聞き出しは行わず、まずは安全・安心を提供し、基本的なニーズを満たすことを優先します。",
-    "subject": "disaster_mental_health"
+    "subject": "disaster_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_030",
@@ -237,7 +295,9 @@
     "options": ["自殺", "児童虐待", "薬物乱用", "差別"],
     "correctIndex": 1,
     "explanation": "オレンジリボンは、児童虐待防止のシンボルマークとして世界的に知られています。",
-    "subject": "child_abuse"
+    "subject": "child_abuse",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_031",
@@ -245,7 +305,9 @@
     "options": ["1950年", "1987年", "1997年", "2005年"],
     "correctIndex": 2,
     "explanation": "1997年に制定され、精神障害者の社会復帰を支援する専門職としての国家資格が誕生しました。",
-    "subject": "history"
+    "subject": "history",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_032",
@@ -253,15 +315,19 @@
     "options": ["ゲームの流行", "バブル崩壊後の経済不況や失業", "少子化", "教育水準の向上"],
     "correctIndex": 1,
     "explanation": "この時期、特に中高年男性の経済・生活問題による自殺が急増し、深刻な社会問題となりました。",
-    "subject": "suicide_prevention"
+    "subject": "suicide_prevention",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_033",
-    "text": "薬物依存において、使用を止めた際に出現する「フラッシュバック（再燃現象）」の引き金になりやすいものはどれか。",
+    "text": "薬物依存において、使用を止めた際に出現する「フラッシュバック」の引き金になりやすいものはどれか。",
     "options": ["野菜を食べる", "強いストレスや少量の飲酒", "早起きをする", "掃除をする"],
     "correctIndex": 1,
     "explanation": "薬物を使用していなくても、ストレスや飲酒などをきっかけに、過去の幻覚などが突然再燃することがあります。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_034",
@@ -269,7 +335,9 @@
     "options": ["社会的障壁の除去", "全寮制教育の推進", "全額自己負担", "障害の遺伝"],
     "correctIndex": 0,
     "explanation": "障害は個人の心身の問題だけでなく、社会の側にある障壁との関係で生じるという「社会モデル」の視点が反映されました。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_035",
@@ -277,15 +345,19 @@
     "options": ["セルフケア", "ラインによるケア", "事業場外資源によるケア", "家族によるケア"],
     "correctIndex": 3,
     "explanation": "指針では、セルフケア、ラインによるケア、事業場内産業保健スタッフ等によるケア、事業場外資源によるケアの4つが挙げられています。",
-    "subject": "labor_mental_health"
+    "subject": "labor_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_036",
     "text": "「ホームレスの自立の支援等に関する特別措置法」の対象となるホームレスの定義はどれか。",
-    "options": ["家を持っていない人全員", "都市公園、河川、道路等を起居の場所とし、日常生活を営んでいる者", "ネットカフェに泊まっている人", "実家に住んでいる人"],
+    "options": ["家を持っていない人全員", "公園、河川等で起居し、日常生活を営んでいる者", "ネットカフェに泊まっている人", "実家に住んでいる人"],
     "correctIndex": 1,
     "explanation": "法律上は、野宿生活者を主な対象として定義されていますが、広義には不安定な居住状態の人を含める議論もあります。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "mh_037",
@@ -293,7 +365,9 @@
     "options": ["被害者の権利は制限される", "被害者の尊厳にふさわしい処遇を保障する", "加害者の利益を最優先する", "被害者は一切の支援を受けられない"],
     "correctIndex": 1,
     "explanation": "犯罪被害者が再び平穏な生活を営めるよう、その尊厳を尊重し、権利を保護することを目的としています。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_038",
@@ -301,7 +375,9 @@
     "options": ["精神医療審査会", "地方精神保健福祉審議会", "運営委員会", "倫理委員会"],
     "correctIndex": 1,
     "explanation": "地域の精神保健福祉に関する事項を審議・調査するために設置されます。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "mh_039",
@@ -309,15 +385,19 @@
     "options": ["精神病者監護法", "精神病院法", "優生保護法", "救護法"],
     "correctIndex": 0,
     "explanation": "1950年の制定により、ようやく私宅監置が法的に禁止されました。",
-    "subject": "history"
+    "subject": "history",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_040",
     "text": "児童虐待防止法における「心理的虐待」に該当する例はどれか。",
-    "options": ["食事を与えない", "性的な行為を強要する", "子供の前で配偶者に暴力を振るう（面前DV）", "体中を叩く"],
+    "options": ["食事を与えない", "性的な行為を強要する", "子供の前で家族に暴力を振るう（面前DV）", "体中を叩く"],
     "correctIndex": 2,
     "explanation": "面前DVは、子供の心に深い傷を与えるため、重大な心理的虐待とみなされます。",
-    "subject": "child_abuse"
+    "subject": "child_abuse",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_041",
@@ -325,15 +405,19 @@
     "options": ["生きることの支援として推進する", "個人の努力に任せる", "医療の提供のみを行う", "高齢者のみを対象とする"],
     "correctIndex": 0,
     "explanation": "単に死を防ぐだけでなく、一人ひとりが大切にされ、生きる力を支える社会を目指す「生きることの支援」が強調されています。",
-    "subject": "suicide_prevention"
+    "subject": "suicide_prevention",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_042",
-    "text": "ゲーム障害（Gaming Disorder）が国際疾病分類（ICD-11）に追加された際の分類はどれか。",
+    "text": "ゲーム障害が国際疾病分類（ICD-11）に追加された際の分類はどれか。",
     "options": ["運動障害", "嗜癖行動（依存性行動）による障害", "人格障害", "栄養障害"],
     "correctIndex": 1,
     "explanation": "ゲームをしたい衝動を制御できず、生活に重大な支障をきたす依存症の一種として認められました。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_043",
@@ -341,15 +425,19 @@
     "options": ["IQテスト", "職業ストレス簡易調査票", "性格診断", "血液検査"],
     "correctIndex": 1,
     "explanation": "ストレスチェック制度でも推奨されている、個人のストレス要因や反応を測る標準的なツールです。",
-    "subject": "labor_mental_health"
+    "subject": "labor_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_044",
     "text": "認知症施策「新オレンジプラン」の7つの柱に含まれないものはどれか。",
-    "options": ["認知症の理解を深めるための普及・啓発", "認知症の容態に応じた適時・適切な医療・介護の提供", "認知症の人をすべて隔離施設に収容すること", "若年性認知症施策の強化"],
+    "options": ["普及・啓発", "適時・適切な医療・介護の提供", "すべて隔離施設に収容すること", "若年性認知症施策の強化"],
     "correctIndex": 2,
     "explanation": "プランは、認知症の人の意思を尊重し、住み慣れた地域で暮らせる社会の実現を目指しており、隔離は対極の考え方です。",
-    "subject": "elderly_mental_health"
+    "subject": "elderly_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_045",
@@ -357,7 +445,9 @@
     "options": ["社会復帰の促進", "措置入院の強化と通院公費負担制度の新設", "カウンセリングの普及", "任意入院の奨励"],
     "correctIndex": 1,
     "explanation": "米国大使が精神障害者に刺された事件を受け、治安維持的な側面から入院制度が強化されました。",
-    "subject": "history"
+    "subject": "history",
+    "difficulty": "C",
+    "isEnabled": true
   },
   {
     "id": "mh_046",
@@ -365,15 +455,19 @@
     "options": ["逮捕状", "保護命令", "示談勧告", "解雇命令"],
     "correctIndex": 1,
     "explanation": "被害者への接近禁止や、住居からの退去を命じることで、被害者の安全を確保します。",
-    "subject": "domestic_violence"
+    "subject": "domestic_violence",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_047",
     "text": "「共依存」の状態にある家族への支援として、不適切なものはどれか。",
-    "options": ["家族自身のケアを優先する", "家族自身が自助グループに参加することを勧める", "家族に対し、本人の尻拭いをさらに頑張るように励ます", "本人との適切な境界線を引くことを助ける"],
+    "options": ["家族自身のケアを優先する", "家族自身が自助グループに参加することを勧める", "本人の不始末をさらに頑張るように励ます", "本人との適切な境界線を引くことを助ける"],
     "correctIndex": 2,
     "explanation": "家族が本人の問題を肩代わりし続けることは、共依存を強め、双方の回復を遅らせることになります。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_048",
@@ -381,55 +475,69 @@
     "options": ["市町村のみ", "都道府県及び政令指定都市", "警察署", "小学校"],
     "correctIndex": 1,
     "explanation": "ひきこもりに特化した専門的な相談や支援を行う拠点として、各都道府県等に設置されています。",
-    "subject": "social_withdrawal"
+    "subject": "social_withdrawal",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_049",
     "text": "日本の自殺対策において、3月が「自殺対策強化月間」とされている主な理由はどれか。",
-    "options": ["春休みだから", "年度末で生活環境が大きく変化し、悩みを抱えやすい時期だから", "気候が良いから", "お正月が終わったから"],
+    "options": ["春休みだから", "生活環境が変化し悩みを抱えやすい時期だから", "気候が良いから", "お正月が終わったから"],
     "correctIndex": 1,
     "explanation": "就職や進学、決算など、生活上の変化が大きく心理的な負担が増えやすい時期に合わせて啓発活動を強化しています。",
-    "subject": "suicide_prevention"
+    "subject": "suicide_prevention",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_050",
-    "text": "災害時、被災者の心の健康を長期的に見守り、支援するために保健所などが作成する名簿や体制を何と呼ぶか。",
+    "text": "災害時、被災者の心の健康を長期的に見守り支援するために保健所などが作成する名簿を何と呼ぶか。",
     "options": ["ブラックリスト", "見守り・支援ネットワーク（名簿）", "住民票", "罹災証明書一覧"],
     "correctIndex": 1,
     "explanation": "孤立を防ぎ、継続的な訪問やケアを行うための地域ぐるみの体制です。",
-    "subject": "disaster_mental_health"
+    "subject": "disaster_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_051",
-    "text": "WHOが定めた「ICF（国際生活機能分類）」において、病気や障害による生活への影響を捉える3つのレベルはどれか。",
+    "text": "WHOが定めた「ICF（国際生活機能分類）」において、生活への影響を捉える3つのレベルはどれか。",
     "options": ["身長・体重・視力", "心身機能・身体構造、活動、参加", "通院・入院・手術", "幼少期・青年期・老年期"],
     "correctIndex": 1,
     "explanation": "ICFは「障害」をマイナスとしてだけでなく、環境との相互作用の中で生きる「機能」として多角的に捉えます。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_052",
     "text": "児童虐待の「ネグレクト」に該当する行為はどれか。",
-    "options": ["適切な食事を与えず、長時間放置する", "勉強を教える", "一緒に旅行に行く", "服を買ってあげる"],
+    "options": ["適切な食事を与えず長時間放置する", "勉強を教える", "一緒に旅行に行く", "服を買ってあげる"],
     "correctIndex": 0,
     "explanation": "育児放棄（ネグレクト）は、子供の心身の成長に必要な世話や保護を怠ることです。",
-    "subject": "child_abuse"
+    "subject": "child_abuse",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_053",
-    "text": "労働者のメンタルヘルスにおいて、上司や同僚が部下や同僚の不調に気づき、対応することを何と呼ぶか。",
+    "text": "労働者のメンタルヘルスにおいて、上司や同僚が部下の不調に気づき対応することを何と呼ぶか。",
     "options": ["セルフケア", "ラインによるケア", "リワーク", "パワハラ"],
     "correctIndex": 1,
     "explanation": "管理監督者が行う「ラインによるケア」は、早期発見や職場復帰支援において極めて重要です。",
-    "subject": "labor_mental_health"
+    "subject": "labor_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_054",
-    "text": "「精神保健福祉士」の定義として法的に定められている役割はどれか。",
-    "options": ["精神障害者の手術を行うこと", "精神障害者の社会復帰に関する相談に応じ、助言、指導等を行うこと", "すべての薬を処方すること", "警察官として活動すること"],
+    "text": "「精神保健福祉士」の法的に定められている役割はどれか。",
+    "options": ["精神障害者の手術を行うこと", "社会復帰に関する相談に応じ、助言、指導等を行うこと", "すべての薬を処方すること", "警察官として活動すること"],
     "correctIndex": 1,
-    "explanation": "法的には、精神保健に関する専門的知識・技術をもって、社会復帰や自立した生活に向けた援助を行う専門職として位置づけられています。",
-    "subject": "history"
+    "explanation": "法的には、精神保健に関する専門的知識をもって社会復帰や自立した生活に向けた援助を行う専門職です。",
+    "subject": "history",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_055",
@@ -437,31 +545,39 @@
     "options": ["説教する→無視する→忘れる→叩く", "気づく→声をかける→話を聴く→つなげる", "診断する→手術する→薬を出す→入院させる", "お金を貸す→家を建てる→仕事を与える→食事を作る"],
     "correctIndex": 1,
     "explanation": "相手の異変に「気づき」、「声をかけ」、「共感的に話を聴き」、専門機関に「つなげる（見守る）」のステップが基本です。",
-    "subject": "suicide_prevention"
+    "subject": "suicide_prevention",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_056",
-    "text": "高齢者の認知症支援において、地域の住民が正しい知識を持ち、認知症の人を見守る人を何と呼ぶか。",
+    "text": "高齢者の認知症支援において、地域の住民が正しい知識を持ち見守る人を何と呼ぶか。",
     "options": ["認知症サポーター", "ホームヘルパー", "ボランティアリーダー", "民生委員"],
     "correctIndex": 0,
-    "explanation": "オレンジリングを身につけた「認知症サポーター」は、特別な支援者ではなく、地域で温かく見守る応援者です。",
-    "subject": "elderly_mental_health"
+    "explanation": "オレンジリングを身につけた「認知症サポーター」は、特別な支援者ではなく地域で温かく見守る応援者です。",
+    "subject": "elderly_mental_health",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_057",
-    "text": "ひきこもりからの回復過程において、本人が他者と安心して関われる「居場所」の提供が重要な理由はどれか。",
+    "text": "ひきこもりからの回復において、本人が他者と安心して関われる「居場所」の提供が重要な理由はどれか。",
     "options": ["社会参加への橋渡しとなり、孤立を解消するため", "働かせるため", "勉強させるため", "家を追い出すため"],
     "correctIndex": 0,
-    "explanation": "いきなり就労などを目指すのではなく、まずは「自分を認めてもらえる安全な場所」で他者と触れ合うことが、回復の大きな一歩になります。",
-    "subject": "social_withdrawal"
+    "explanation": "いきなり就労を目指すのではなく、まずは「自分を認めてもらえる安全な場所」で他者と触れ合うことが回復の大きな一歩になります。",
+    "subject": "social_withdrawal",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_058",
-    "text": "依存症からの回復において「底つき（Bottoming out）」とはどのような体験を指すか。",
-    "options": ["一番高い山に登ること", "これ以上悪くなりようがないという限界を自覚し、助けを求めようと思う体験", "深海に潜ること", "一生働けなくなること"],
+    "text": "依存症からの回復において「底つき」とはどのような体験を指すか。",
+    "options": ["一番高い山に登ること", "自らの限界を自覚し、助けを求めようと思う体験", "深海に潜ること", "一生働けなくなること"],
     "correctIndex": 1,
     "explanation": "自分ではどうしようもできないという絶望的な状況を自覚することが、治療の開始点になることが多いという概念です。",
-    "subject": "dependency"
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
   },
   {
     "id": "mh_059",
@@ -469,14 +585,18 @@
     "options": ["すべての病気の人", "精神疾患があり、継続的な通院治療が必要な者", "入院中の人全員", "風邪をひいた人"],
     "correctIndex": 1,
     "explanation": "外来での継続的な精神科治療を公費で補助し、経済的な負担を軽減することで治療の継続を支えます。",
-    "subject": "public_health"
+    "subject": "public_health",
+    "difficulty": "A",
+    "isEnabled": true
   },
   {
     "id": "mh_060",
     "text": "リカバリーの過程で「ストレングス・アプローチ」を用いる際の主眼はどれか。",
-    "options": ["本人の病気や欠点を指摘する", "本人が持っている能力、夢、興味、環境のリソースを活用する", "過去の失敗を追求する", "指示に従わせる"],
+    "options": ["本人の病気や欠点を指摘する", "本人が持っている能力、夢、環境のリソースを活用する", "過去の失敗を追求する", "指示に従わせる"],
     "correctIndex": 1,
     "explanation": "「できないこと」ではなく「できること」「やりたいこと」に注目し、本人の希望に沿った支援を組み立てます。",
-    "subject": "recovery"
+    "subject": "recovery",
+    "difficulty": "A",
+    "isEnabled": true
   }
 ]
