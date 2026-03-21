@@ -89,6 +89,7 @@
 - Ads/Consent: `.github/instructions/ads.instructions.md`
 - Quiz Domain: `.github/instructions/quiz-domain.instructions.md`
 - Data/Repository: `.github/instructions/data-repository.instructions.md`
+- **Master Data**: `.github/instructions/master-data.instructions.md`
 - Notifications: `.github/instructions/notifications.instructions.md`
 - Logging & Errors: `.github/instructions/logging-error-handling.instructions.md`
 - Build & Deps: `.github/instructions/build-and-deps.instructions.md`
