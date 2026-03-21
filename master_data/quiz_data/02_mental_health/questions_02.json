@@ -1,0 +1,202 @@
+[
+  {
+    "id": "mh_061",
+    "text": "1950年に制定された「精神衛生法」において、私宅監置の禁止とともに新設された入院形態はどれか。",
+    "options": ["任意入院", "緊急措置入院", "応急入院", "同意入院"],
+    "correctIndex": 3,
+    "explanation": "1950年の精神衛生法では、私宅監置を禁止し、保護義務者の同意に基づく「同意入院」制度が創設されました。",
+    "subject": "history",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_062",
+    "text": "「自殺対策基本法」に基づき、地方公共団体が策定を義務付けられている計画はどれか。",
+    "options": ["地域自殺対策計画", "自殺ゼロ宣言計画", "心の健康増進計画", "経済再生計画"],
+    "correctIndex": 0,
+    "explanation": "2016年の法改正により、すべての都道府県および市町村に対し、地域の実情に応じた「地域自殺対策計画」の策定が義務化されました。",
+    "subject": "suicide_prevention",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_063",
+    "text": "依存症からの回復において、本人が変化を受け入れていくプロセスを説明した理論はどれか。",
+    "options": ["学習理論", "変化のステージモデル", "防衛機制", "愛着理論"],
+    "correctIndex": 1,
+    "explanation": "無関心期から準備期、実行期へと進む「変化のステージモデル」は、依存症支援における動機付け面接の基礎となります。",
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_064",
+    "text": "リカバリーの要素を頭文字で表した「CHIME」のうち、「I」が指すものはどれか。",
+    "options": ["介入", "アイデンティティ", "保険", "孤立"],
+    "correctIndex": 1,
+    "explanation": "CHIMEは、つながり(C)、希望(H)、アイデンティティ(I)、人生の意味(M)、エンパワメント(E)の5つの要素を指します。",
+    "subject": "recovery",
+    "difficulty": "C",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_065",
+    "text": "災害時、支援者が被災者の体験を聴くことで、自らも精神的な不調をきたすことを何と呼ぶか。",
+    "options": ["燃え尽き症候群", "逆転移", "二次的外傷性ストレス", "適応障害"],
+    "correctIndex": 2,
+    "explanation": "支援者が被災者のトラウマに触れることで、自分自身もPTSDのような症状を呈することを二次受傷と呼び、ケアが必要です。",
+    "subject": "disaster_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_066",
+    "text": "「児童虐待防止法」において、児童の安全確認のために認められている権限はどれか。",
+    "options": ["逮捕権", "裁判なしの収監", "親権の即時剥奪", "立入調査"],
+    "correctIndex": 3,
+    "explanation": "虐待の疑いがある場合、児童相談所長や市町村長は、児童の住所に立ち入り、必要な調査を行うことができます。",
+    "subject": "child_abuse",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_067",
+    "text": "精神保健福祉センターの専門的な役割として、市町村をバックアップすることを何と呼ぶか。",
+    "options": ["技術的援助", "財政的援助", "人員派遣", "法的代行"],
+    "correctIndex": 0,
+    "explanation": "精神保健福祉センターは都道府県レベルの機関として、市町村の相談業務に対して専門的な視点から助言や技術支援を行います。",
+    "subject": "public_health",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_068",
+    "text": "「ひきこもり」の人がSNS上でのみ他者と繋がっている場合、定義上はどう扱われるか。",
+    "options": ["ひきこもりには該当しない", "依然としてひきこもりに含まれる", "社会復帰済みとみなす", "病気ではないとみなす"],
+    "correctIndex": 1,
+    "explanation": "対面での社会参加がなされていない場合、ネット上での交流があっても一般的にはひきこもりの定義に含まれます。",
+    "subject": "social_withdrawal",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_069",
+    "text": "WHOが提唱する「ヘルスプロモーション」の定義として、適切なものはどれか。",
+    "options": ["病気の人を隔離すること", "病院を増やすこと", "人々が自らの健康を改善できるようにするプロセス", "薬を安く売ること"],
+    "correctIndex": 2,
+    "explanation": "1986年のオタワ憲章で提唱された概念で、人々が健康的な生活を選択できるような環境整備と主体的な活動を重視します。",
+    "subject": "mental_health_definition",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_070",
+    "text": "DV防止法に基づき設置されている、被害者の保護や自立支援を行う拠点はどこか。",
+    "options": ["警察署内相談室", "保健所", "ハローワーク", "配偶者暴力相談支援センター"],
+    "correctIndex": 3,
+    "explanation": "都道府県などの施設に設置されており、一時保護の提供や情報提供、自立支援のための調整を行います。",
+    "subject": "domestic_violence",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_071",
+    "text": "精神病者監護法（1900年）において、私宅監置を行う際に必要とされた責任はどれか。",
+    "options": ["警察署長への届出と知事の許可", "入院費用の負担", "本人の就労支援", "海外への移住"],
+    "correctIndex": 0,
+    "explanation": "私宅監置を行うには行政の許可が必要であり、警察等による監視の対象となっていました。",
+    "subject": "history",
+    "difficulty": "C",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_072",
+    "text": "「精神障害者の救済」を訴え、現在の家族会の母体を作った先駆者は誰か。",
+    "options": ["池田太郎", "呉秀三", "加藤丈夫", "相馬黒光"],
+    "correctIndex": 1,
+    "explanation": "呉秀三は私宅監置の撤廃だけでなく、患者の処遇改善や家族の支援の重要性を説きました。",
+    "subject": "history",
+    "difficulty": "C",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_073",
+    "text": "自殺対策における「ハイリスク・アプローチ」とはどのような手法か。",
+    "options": ["全国民を一律に啓発する", "危険な場所を閉鎖する", "自殺の危険性が特に高い個人や集団に重点を置く", "高い場所をすべて柵で囲う"],
+    "correctIndex": 2,
+    "explanation": "精神疾患の既往がある人や多重債務者など、特定のリスクを抱える層へ集中的に介入する手法です。",
+    "subject": "suicide_prevention",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_074",
+    "text": "「精神保健福祉センター」の設置の根拠法はどれか。",
+    "options": ["地域保健法", "社会福祉法", "医療法", "精神保健福祉法"],
+    "correctIndex": 3,
+    "explanation": "精神保健福祉法第6条に基づき、都道府県および政令指定都市に設置が義務付けられています。",
+    "subject": "public_health",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_075",
+    "text": "薬物依存症の支援において、生きづらさに焦点を当てるグループワークを何と呼ぶか。",
+    "options": ["SMARPP", "SST", "条件反射制御法", "内観療法"],
+    "correctIndex": 0,
+    "explanation": "SMARPPは、認知行動療法に基づいた日本の代表的な薬物依存症再発防止プログラムです。",
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_076",
+    "text": "リカバリーにおいて、本人が「障害がある自分」を人生の一部としていく過程を何と呼ぶか。",
+    "options": ["諦め", "自己受容", "合理化", "隔離"],
+    "correctIndex": 1,
+    "explanation": "「障害者である自分」を超えて、新しい自己像を築いていくプロセスがリカバリーの中核です。",
+    "subject": "recovery",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_077",
+    "text": "災害時の心のケアにおいて、子供に見られる「赤ちゃん返り」などの反応を何と呼ぶか。",
+    "options": ["乖離現象", "反抗期", "退行現象", "発達障害"],
+    "correctIndex": 2,
+    "explanation": "極度のストレスにより、発達の以前の段階に戻るような行動が見られることがあり、安心感を与える対応が必要です。",
+    "subject": "disaster_mental_health",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_078",
+    "text": "児童虐待防止法における「心理的虐待」の説明として、適切なものはどれか。",
+    "options": ["食事をわざと少なくすること", "子供の金を勝手に使うこと", "勉強をさせないこと", "言葉による脅しや面前DVなど"],
+    "correctIndex": 3,
+    "explanation": "身体的な暴力を伴わなくても、暴言やドメスティック・バイオレンスの目撃（面前DV）などは、深刻な心理的虐待とみなされます。",
+    "subject": "child_abuse",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_079",
+    "text": "労働者のメンタルヘルスにおける「事業場外資源」の例として、正しいのはどれか。",
+    "options": ["地域障害者職業センターなどの外部機関", "職場の上司", "職場の産業医", "自分の同僚"],
+    "correctIndex": 0,
+    "explanation": "社内ではなく、外部の専門機関やサービスを活用してメンタルヘルスケアを行うことを指します。",
+    "subject": "labor_mental_health",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "mh_080",
+    "text": "依存症の家族が、本人を救おうとして自分の生活を犠牲にしてしまう状態を何と呼ぶか。",
+    "options": ["相互扶助", "共依存", "自己犠牲精神", "愛他主義"],
+    "correctIndex": 1,
+    "explanation": "本人の問題に巻き込まれ、自分自身のアイデンティティを本人の世話に依存させてしまう状態で、家族自身のケアが必要です。",
+    "subject": "dependency",
+    "difficulty": "A",
+    "isEnabled": true
+  }
+]
