@@ -7,16 +7,16 @@ import androidx.activity.compose.setContent
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
-import com.msaitodev.core.ads.InterstitialHelper
-import com.msaitodev.core.ads.RewardedHelper
 import com.msaitodev.mhsw.humanmed.ui.AppNavHost
 import com.msaitodev.mhsw.humanmed.ui.theme.MhswTheme
+import com.msaitodev.core.ads.InterstitialHelper
+import com.msaitodev.core.ads.RewardedHelper
 import com.msaitodev.quiz.core.domain.repository.PremiumRepository
 import com.msaitodev.quiz.core.domain.repository.RemoteConfigRepository
 import com.msaitodev.quiz.core.domain.repository.SyncRepository
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
 import javax.inject.Inject
+import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -46,8 +46,15 @@ class MainActivity : ComponentActivity() {
         lifecycle.addObserver(object : DefaultLifecycleObserver {
             override fun onResume(owner: LifecycleOwner) {
                 lifecycleScope.launch {
-                    premiumRepo.refreshFromBilling()
+                    // Remote Config の最新化を試みる
+                    try {
+                        remoteConfigRepo.fetch()
+                    } catch (e: Exception) {
+                        Log.e("MainActivity", "RemoteConfig fetch failed", e)
+                    }
 
+                    premiumRepo.refreshFromBilling()
+                    
                     // 起動時にクラウドからデータをダウンロードして統合
                     // ※プレミアムユーザー判定は内部で行われる
                     syncRepo.downloadFromCloud()
@@ -57,7 +64,12 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             MhswTheme {
-                AppNavHost(interstitialHelper, rewardedHelper)
+                AppNavHost(
+                    interstitialHelper = interstitialHelper,
+                    rewardedHelper = rewardedHelper,
+                    remoteConfigRepo = remoteConfigRepo,
+                    premiumRepo = premiumRepo
+                )
             }
         }
     }
