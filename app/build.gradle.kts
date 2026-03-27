@@ -29,8 +29,8 @@ android {
         applicationId = "com.msaitodev.mhsw.humanmed"
         minSdk = 24
         targetSdk = 35
-        versionCode = 8
-        versionName = "1.2.0"
+        versionCode = 10
+        versionName = "1.2.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
