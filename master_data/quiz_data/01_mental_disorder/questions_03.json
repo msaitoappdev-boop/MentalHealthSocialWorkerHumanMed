@@ -1,0 +1,202 @@
+[
+  {
+    "id": "md_081",
+    "text": "抗精神病薬の副作用「悪性症候群」の初期症状として、最も注意すべきものはどれか。",
+    "options": ["急激な発熱と発汗", "食欲の異常増進", "多尿と頻尿", "視力の急激な低下"],
+    "correctIndex": 0,
+    "explanation": "悪性症候群は、高熱、筋強剛、自律神経症状を特徴とする重篤な副作用です。初期には発熱や発汗、頻脈などが現れます。",
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_082",
+    "text": "ICD-11において、従来の「自閉症」「アスペルガー症候群」などが統合された名称はどれか。",
+    "options": ["広汎性発達障害", "自閉スペクトラム症", "社会的コミュニケーション障害", "特定不能の発達障害"],
+    "correctIndex": 1,
+    "explanation": "ICD-11では、自閉症やアスペルガー症候群等は「自閉スペクトラム症（ASD）」として一つのカテゴリーに統合されました。",
+    "subject": "classification",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "md_083",
+    "text": "統合失調症の「思考吹入」の説明として正しいものはどれか。",
+    "options": ["自分の考えが周囲に漏れていると感じる", "他人の考えが自分の頭に入ってくると感じる", "自分の考えが放送されていると感じる", "思考が突然途絶えてしまう"],
+    "correctIndex": 1,
+    "explanation": "思考吹入は、自分の意志とは無関係に、他人の考えが自分の頭の中に吹き込まれると感じる自我境界の障害です。",
+    "subject": "schizophrenia",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_084",
+    "text": "双極性障害の治療において、気分安定薬（リチウム等）と併用されることが多い心理社会的療法はどれか。",
+    "options": ["暴露反応妨害法", "動作法", "家族療法", "対人関係・社会リズム療法（IPSRT）"],
+    "correctIndex": 3,
+    "explanation": "IPSRTは、対人関係の調整と生活リズム（睡眠・食事等）の安定化を図るもので、双極性障害の再発予防に有効です。",
+    "subject": "therapy",
+    "difficulty": "C",
+    "isEnabled": true
+  },
+  {
+    "id": "md_085",
+    "text": "うつ病の身体症状として、出現頻度が低いものはどれか。",
+    "options": ["睡眠障害", "食欲不振", "易疲労感", "血圧の低下"],
+    "correctIndex": 3,
+    "explanation": "うつ病では不眠、食欲不振、倦怠感などが頻く見られますが、低血圧が主要な身体症状として扱われることは稀です。",
+    "subject": "mood_disorder",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "md_086",
+    "text": "アルツハイマー型認知症の治療薬「ドネペジル」の主な作用機序はどれか。",
+    "options": ["アセチルコリンエステラーゼ阻害", "ドパミン受容体遮断", "セロトニン再取り込み阻害", "GABA受容体刺激"],
+    "correctIndex": 0,
+    "explanation": "ドネペジルはアセチルコリンを分解する酵素を阻害し、脳内のアセチルコリン濃度を高めることで認知機能を改善します。",
+    "subject": "dementia",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_087",
+    "text": "「身体症状症」の診断において、最も重視される要素はどれか。",
+    "options": ["身体的異常の有無", "症状に伴う過度な苦痛や日常生活の支障", "原因となる器質的疾患の特定", "患者の演技的な態度"],
+    "correctIndex": 1,
+    "explanation": "DSM-5等では、身体的な異常の有無よりも、その症状に対して本人がどれほど苦悩し生活に影響が出ているかを重視します。",
+    "subject": "neurotic_disorder",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_088",
+    "text": "パニック障害の薬物療法において、急性期の発作抑制に即効性を期待して用いられる種類はどれか。",
+    "options": ["SSRI", "三環系抗うつ薬", "抗てんかん薬", "ベンゾジアゼピン系抗不安薬"],
+    "correctIndex": 3,
+    "explanation": "SSRIは効果発現まで時間がかかるため、パニック発作の即時の沈静にはベンゾジアゼピン系が併用されることがあります。",
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_089",
+    "text": "注意欠如・多動症（ADHD）の特性を持つ成人において、二次的に発生しやすい問題はどれか。",
+    "options": ["依存症やうつ病", "知能指数の低下", "言語能力の喪失", "運動機能の麻痺"],
+    "correctIndex": 0,
+    "explanation": "成人のADHDでは、社会生活での失敗体験の蓄積から、うつ病や不安障害、物質依存などを合併するリスクが高いです。",
+    "subject": "developmental_disorder",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_090",
+    "text": "ナルコレプシーにおいて、入眠時に「体が動かない」と感じる体験を何と呼ぶか。",
+    "options": ["入眠時幻覚", "睡眠麻痺", "情動脱力発作", "自動症"],
+    "correctIndex": 1,
+    "explanation": "睡眠麻痺はいわゆる「金縛り」の状態です。ナルコレプシーの主要症状の一つで、レム睡眠への移行異常により生じます。",
+    "subject": "sleep_disorder",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "md_091",
+    "text": "てんかんの「ジャクソン行進」が見られる発作型はどれか。",
+    "options": ["単純部分発作（焦点意識保持発作）", "複雑部分発作（焦点意識減損発作）", "欠神発作", "ミオクロニー発作"],
+    "correctIndex": 0,
+    "explanation": "ジャクソン行進は、手の震えが腕、顔へと順次広がっていく現象で、意識が保たれる単純部分発作で見られます。",
+    "subject": "epilepsy",
+    "difficulty": "C",
+    "isEnabled": true
+  },
+  {
+    "id": "md_092",
+    "text": "強迫性障害の強迫行為のうち、確認行為以外の代表的なものはどれか。",
+    "options": ["買い物依存", "洗浄・儀式的な手洗い", "他人を攻撃する", "極度の多弁"],
+    "correctIndex": 1,
+    "explanation": "汚れを恐れて何度も手を洗う、あるいは特定の順番で物事を進める「儀式」は、強迫行為の典型例です。",
+    "subject": "anxiety_disorder",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "md_093",
+    "text": "抗認知症薬のうち、貼付剤（パッチ剤）が存在する薬剤はどれか。",
+    "options": ["ドネペジル", "メマンチン", "リバスチグミン", "ガランタミン"],
+    "correctIndex": 2,
+    "explanation": "リバスチグミンは経口摂取が困難な患者でも使用できるよう、パッチ剤が開発・普及しています。",
+    "subject": "pharmacotherapy",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_094",
+    "text": "境界性パーソナリティ障害の治療において、認知行動療法をベースに開発された技法はどれか。",
+    "options": ["精神分析", "内観療法", "森田療法", "弁証法的行動療法（DBT）"],
+    "correctIndex": 3,
+    "explanation": "DBTは、リネハンによって開発され、感情調節や対人関係のスキル向上を目的とした治療法です。",
+    "subject": "therapy",
+    "difficulty": "C",
+    "isEnabled": true
+  },
+  {
+    "id": "md_095",
+    "text": "「せん妄」を引き起こす要因として、薬剤以外で多いものはどれか。",
+    "options": ["脱水や感染症", "性格の歪み", "適度な運動", "高学歴"],
+    "correctIndex": 0,
+    "explanation": "高齢者のせん妄は、脱水、発熱、便秘、環境の変化などの身体的・環境的なストレスが引き金になることが多いです。",
+    "subject": "consciousness_disorder",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_096",
+    "text": "社交不安障害（SAD）において、最も回避されやすい状況はどれか。",
+    "options": ["一人で読書をする", "人前でスピーチや発表をする", "家族と食事をする", "自宅で掃除をする"],
+    "correctIndex": 1,
+    "explanation": "SADは「他人に評価される状況」に強い不安を感じるため、発表や電話、会食などが回避の対象となります。",
+    "subject": "anxiety_disorder",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "md_097",
+    "text": "アルコール離脱の初期（数時間～2日以内）に現れやすい症状はどれか。",
+    "options": ["手指の振戦（手の震え）", "小動物が見える幻視", "複雑な妄想", "深い眠り"],
+    "correctIndex": 0,
+    "explanation": "飲酒を中断して最初に出現するのは手指の振戦や発汗、不安感です。幻視（震戦せん妄）はその後に出現します。",
+    "subject": "dependency",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_098",
+    "text": "統合失調症の「連合弛緩」がさらに進行し、言葉の羅列だけで意味が通じなくなった状態を何と呼ぶか。",
+    "options": ["思考制止", "観念奔逸", "言葉のサラダ", "作為体験"],
+    "correctIndex": 2,
+    "explanation": "単語同士のつながりが完全に破綻し、文脈が失われた状態を「言葉のサラダ（滅裂思考）」と呼びます。",
+    "subject": "schizophrenia",
+    "difficulty": "B",
+    "isEnabled": true
+  },
+  {
+    "id": "md_099",
+    "text": "ADHDの不注意特性により、職場で見られやすい具体的なミスはどれか。",
+    "options": ["ケアレスミスや物の紛失", "大声で叫ぶ", "筋肉が固まる", "計算能力が異常に高まる"],
+    "correctIndex": 0,
+    "explanation": "細部への注意が困難なため、重要書類の紛失や、単純な入力ミス、スケジュールの失念などが頻発します。",
+    "subject": "developmental_disorder",
+    "difficulty": "A",
+    "isEnabled": true
+  },
+  {
+    "id": "md_100",
+    "text": "心理検査「WAIS-IV」によって主に測定されるものはどれか。",
+    "options": ["性格のタイプ", "投影された無意識", "成人の知能能力", "脳の萎縮の程度"],
+    "correctIndex": 2,
+    "explanation": "WAIS-IV（ウェクスラー成人知能検査）は、全検査IQや各指標（言語理解、知覚推理等）を測定する標準的な検査です。",
+    "subject": "assessment",
+    "difficulty": "B",
+    "isEnabled": true
+  }
+]
