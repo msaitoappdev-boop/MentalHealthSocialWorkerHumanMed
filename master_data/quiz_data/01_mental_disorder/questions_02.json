@@ -74,7 +74,7 @@
     "text": "発達障害において、言葉の裏にある「比喩」や「皮肉」を理解するのが苦手な特性を持つのはどれか。",
     "options": ["知的発達症", "ADHD", "自閉スペクトラム症（ASD）", "学習障害（LD）"],
     "correctIndex": 2,
-    "explanation": "ASD의特性として、言葉通りに受け取ってしまい、文脈や社会的な含みを察することに困難が生じることが挙げられます。",
+    "explanation": "ASDの特性として、言葉通りに受け取ってしまい、文脈や社会的な含みを察することに困難が生じることが挙げられます。",
     "subject": "developmental_disorder",
     "difficulty": "A",
     "isEnabled": true

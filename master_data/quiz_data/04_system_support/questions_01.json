@@ -544,7 +544,7 @@
     "text": "「障害者就業・生活支援センター」の愛称として広く使われているのはどれか。",
     "options": ["ハローワーク", "ひきこもりセンター", "なかぽつ", "リワーク"],
     "correctIndex": 2,
-    "explanation": "「就業」と「生活」の中間にあることから「なかぽつ」と呼ばわれます。",
+    "explanation": "「就業」と「生活」の中間にあることから「なかぽつ」と呼ばれます。",
     "subject": "support_system",
     "difficulty": "B",
     "isEnabled": true
